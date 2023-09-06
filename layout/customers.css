@@ -1,0 +1,101 @@
+.customers{
+    padding-bottom: 50px;
+}
+
+.customers__header {
+    height: 150px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 150px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.customers__separator {
+    width: 170px;
+    margin: auto;
+    border: .5px solid #EC7979;
+    margin-bottom: 40px;
+}
+
+.customers__subheader {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: #86878B;
+    margin-bottom: 40px;
+}
+
+.customers__sections{
+    width: 1070px;
+    margin: auto;
+    height: 336px;  
+    display: flex;
+}
+
+.customers__sections section{
+    width: 370px;
+    display: inline-block;
+    margin-right: 30px; 
+
+}
+.customers__sections div{
+    width: 370px;
+    height: 180px;
+    border-radius: 10px;
+    position: relative;
+    background: #E2E2E2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customers__sections div::after {
+    content: '';
+    position: absolute;
+    background: #E2E2E2;
+    left: 70px; bottom: -11px;
+    width: 20px; height: 20px;
+    z-index: -1; 
+    transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg);
+}
+.customers__sections h5{
+    color: #86878B;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.customers__sections img{
+    margin-top: 70px;
+    width: 70px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 0px; 
+}
+.customers__sections h4{
+    margin-top: 70px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Open Sans", sans-serif;;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 85px 0 0 100px; 
+}
+.customers__sections h5:last-of-type{
+    color: #000;
+    text-align:start;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 15px 0 0 100px;
+}
+

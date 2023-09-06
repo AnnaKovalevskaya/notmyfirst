@@ -1,0 +1,6 @@
+.banner {
+    width: 1170px;
+    height: 1026px;
+    background-image: url(../img/banner.svg);
+    /* background: rgba(0, 0, 0, 0.50); */
+}

@@ -1,24 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
 .tabs {
     width: fit-content;
-    margin: calc((100vh - 543.4px) / 2) auto 0;
+    margin: calc((100vh - 543.4px) / 2) auto 70px;
+
 }
 
-.tabs_article {
-    /* font-size: 1170; */
-    width: max-content;
+.tabs__article {
+    width: fit-content;
     border: 1px solid #C6CBCD;
 }
 
-.tabs_article section{
+.tabs__article section{
     display: inline-block;
     width: 570px;
     margin-left: 100px;
 }
 
-.tabs_article h3 {
-    font-family: 'Open Sans';
+.tabs__article h3 {
+    font-family: "Open Sans", sans-serif;
     font-size: 30px;
     font-weight: 700;
     height: 124px;
@@ -26,15 +25,15 @@
     margin-bottom: 27px;
 }
 
-.tabs_article h5 {
-    font-family: 'Raleway';
+.tabs__article h5 {
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
     margin-bottom: 27px;
 }
 
-.tabs_article button {
+.tabs__article button {
     width: 270px;
     height: 58px;
     background-color: #EC7979;
@@ -65,7 +64,7 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     color: #333;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 14px;
 }

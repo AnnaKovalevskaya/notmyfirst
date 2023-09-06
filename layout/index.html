@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./price.css">
+    <link rel="stylesheet" href="./tabs.css">
+    <link rel="stylesheet" href="./customers.css">
+    <link rel="stylesheet" href="./banner.css">
+    <link rel="stylesheet" href="./banner_2.css">
     <title>Document</title>
 </head>
 <body>
@@ -20,7 +24,7 @@
                 <a href="#">Tab 3</a>
             </div>
         </nav>
-        <article class="tabs_article">
+        <article class="tabs__article">
             <section>
             <h3>Tabs with soft transitioning effect.</h3>
             <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
@@ -37,47 +41,45 @@
             </h5>
             <button>Download</button>
         </section>
-            <img src="C:\Users\User\Desktop\new\2\statue.png" alt="State of Liberty">
+            <img src="../img/statue.png" alt="State of Liberty">
         </article>
     </main>
         <main class="about">
-        <h1 class = "about_header" id = "about_header">Why this is awesome</h1>
-        <!-- <hr class = "about_separator"/> -->
-        <div class = "about_separator1"></div>
-        <h5 class = "about_subheader">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
+        <h1 class = "about__header" id = "about__header">Why this is awesome</h1>
+        <div class = "about__separator"></div>
+        <h5 class = "about__subheader">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
         <header></header>
         <section>
-            <article class = "about_article">
-                <!-- до underscore - блок, т.е. родитель, после underscore - элемент, т.е. ребенок -->
-                <img src="./img/about_icon_1.png" alt="lamp">
-                <h4 class = "about_article_header">Thoutful Design</h4>
-                <p class = "about_article_paragraph">
+            <article class = "about__article">
+                <img src="../img/about_icon_1.png" alt="lamp">
+                <h4 class = "about__article-header">Thoutful Design</h4>
+                <p class = "about__article-paragraph">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, itaque laudantium? Autem optio illum tempora enim asperiores labore voluptatibus? Perferendis, quam!
                 </p>       
             </article>
-            <article class = "about_article">
-                <img src="./img/about_icon_2.png" alt="keyboard">
-                <h4 class = "about_article_header">Thoutful Design</h4>
-                <p class = "about_article_paragraph">
+            <article class = "about__article">
+                <img src="../img/about_icon_2.png" alt="keyboard">
+                <h4 class = "about__article-header">Thoutful Design</h4>
+                <p class = "about__article-paragraph">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, itaque laudantium? Autem optio illum tempora enim asperiores labore voluptatibus? Perferendis, quam!
                 </p>
             </article>
-            <article class = "about_article">
-                <img src="./img/about_icon_3.png" alt="thunder">
-                <h4 class = "about_article_header">Thoutful Design</h4>
-                <p class = "about_article_paragraph">
+            <article class = "about__article">
+                <img src="../img/about_icon_3.png" alt="thunder">
+                <h4 class = "about__article-header">Thoutful Design</h4>
+                <p class = "about__article-paragraph">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, itaque laudantium? Autem optio illum tempora enim asperiores labore voluptatibus? Perferendis, quam!
                 </p>
             </article>
         </section>
     </main>
     <main class="price">
-        <h1 class = "price_header" id = "price_header">Pricing options</h1>
-        <div class = "price_separator1"></div>
-        <h5 class = "price_subheader">
+        <h1 class = "price__header" id = "price__header">Pricing options</h1>
+        <div class = "price__separator"></div>
+        <h5 class = "price__subheader">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         </h5>
-        <section class = "price_sections">
+        <section class = "price__sections">
           <section>
             <h4>Basic</h4>
             <h3>$10</h3>
@@ -112,6 +114,41 @@
             <h5>1 Gb Of Space</h5>
           </section>
         </section>
+      </main>
+      <main class="customers">
+        <h1 class = "customers__header" id = "customers__header">What our customers are saying</h1>
+        <div class = "customers__separator"></div>
+        <h5 class = "customers__subheader">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </h5>
+        <section class="customers__sections">
+            <section>
+                <div>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</h5>
+                </div>
+                <img src="../img/customers_icon_1.svg" alt="Davis Rhiel Madsen">
+                <h4>Davis Rhiel Madsen</h4>
+                <h5>Manager</h5>
+            </section>
+            <section>
+                <div>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</h5>
+                </div>
+                <img src="../img/customers_icon_2.svg" alt="Jaydon Rosser">
+                <h4>Jaydon Rosser</h4>
+                <h5>Manager</h5>
+            </section>
+            <section>
+                <div>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</h5>
+                </div>
+                <img src="../img/customers_icon_3.svg" alt="Cooper Dorwart">
+                <h4>Cooper Dorwart</h4>
+                <h5>Manager</h5>
+            </section>
+        </section>
+      </main>
+      <main class="bn">
       </main>
 </body>
 </html>

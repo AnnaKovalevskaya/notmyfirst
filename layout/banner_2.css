@@ -1,0 +1,8 @@
+.bn{
+    width: 100vh;
+    height: 442px;
+    background: url(../img/banner_2.svg);
+    background-size: no-repeat;
+    background-size: 100%;
+    border-bottom: 1px solid red;
+}
